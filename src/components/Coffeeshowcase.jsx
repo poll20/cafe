@@ -60,7 +60,7 @@ const CoffeeCup = ({ id, size = 160, fillColor = '#6B3A2A', showFill = false, sh
                         data-id={id}
                     />
                     {/* Liquid surface sheen */}
-                    <ellipse cx="80" cy="130" rx="48" ry="6" fill="#a0622a" opacity="0.5" className="coffee-surface" data-id={id} />
+                    <ellipse cx="80" cy="80" rx="48" ry="6" fill="#a0622a" opacity="0.5" className="coffee-surface" data-id={id} />
                 </g>
             )}
 
