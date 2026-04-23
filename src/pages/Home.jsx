@@ -96,10 +96,10 @@ const Home = () => {
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
             {[
-              { name: "Signature Espresso", price: "$3.50", img: "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&q=80&w=600" },
-              { name: "Vanilla Bean Latte", price: "$5.00", img: "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&q=80&w=600" },
-              { name: "Matcha Blend", price: "$5.50", img: "https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?auto=format&fit=crop&q=80&w=600" },
-              { name: "Almond Croissant", price: "$4.50", img: "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&q=80&w=600" },
+              { name: "Signature Espresso", price: "₹250.00", img: "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&q=80&w=600" },
+              { name: "Vanilla Bean Latte", price: "₹300.00", img: "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&q=80&w=600" },
+              { name: "Matcha Blend", price: "₹150.00", img: "https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?auto=format&fit=crop&q=80&w=600" },
+              { name: "Almond Croissant", price: "₹200.00", img: "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&q=80&w=600" },
             ].map((item, idx) => (
               <motion.div
                 key={idx}

@@ -3,16 +3,16 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const menuItems = [
-  { id: 1, category: 'Coffee', name: 'Signature Espresso', price: '$3.50', desc: 'Bright, bold, and perfectly extracted.' },
-  { id: 2, category: 'Coffee', name: 'Vanilla Bean Latte', price: '$5.00', desc: 'Real vanilla bean syrup, steamed milk.' },
-  { id: 3, category: 'Coffee', name: 'Pour Over', price: '$4.50', desc: 'Single-origin rotation, clean and complex.' },
-  { id: 4, category: 'Coffee', name: 'Macchiato', price: '$4.00', desc: 'Traditional. Espresso marked with foam.' },
-  { id: 5, category: 'Beverages', name: 'Matcha Latte', price: '$5.50', desc: 'Ceremonial grade matcha, lightly sweetened.' },
-  { id: 6, category: 'Beverages', name: 'Iced Peach Tea', price: '$4.00', desc: 'Refreshing black tea with peach nectar.' },
-  { id: 7, category: 'Snacks', name: 'Avocado Toast', price: '$9.00', desc: 'Sourdough, chili flakes, microgreens.' },
-  { id: 8, category: 'Snacks', name: 'Smoked Salmon Bagel', price: '$11.00', desc: 'Cream cheese, dill, capers.' },
-  { id: 9, category: 'Desserts', name: 'Almond Croissant', price: '$4.50', desc: 'Twice-baked, almond frangipane.' },
-  { id: 10, category: 'Desserts', name: 'Tiramisu', price: '$7.00', desc: 'Espresso soaked ladyfingers, mascarpone.' },
+  { id: 1, category: 'Coffee', name: 'Signature Espresso', price: '₹120.00', desc: 'Bright, bold, and perfectly extracted.' },
+  { id: 2, category: 'Coffee', name: 'Vanilla Bean Latte', price: '₹150.00', desc: 'Real vanilla bean syrup, steamed milk.' },
+  { id: 3, category: 'Coffee', name: 'Pour Over', price: '₹200.00', desc: 'Single-origin rotation, clean and complex.' },
+  { id: 4, category: 'Coffee', name: 'Macchiato', price: '₹100.00', desc: 'Traditional. Espresso marked with foam.' },
+  { id: 5, category: 'Beverages', name: 'Matcha Latte', price: '₹250.50', desc: 'Ceremonial grade matcha, lightly sweetened.' },
+  { id: 6, category: 'Beverages', name: 'Iced Peach Tea', price: '₹140.00', desc: 'Refreshing black tea with peach nectar.' },
+  { id: 7, category: 'Snacks', name: 'Avocado Toast', price: '₹190.00', desc: 'Sourdough, chili flakes, microgreens.' },
+  { id: 8, category: 'Snacks', name: 'Smoked Salmon Bagel', price: '₹180.00', desc: 'Cream cheese, dill, capers.' },
+  { id: 9, category: 'Desserts', name: 'Almond Croissant', price: '₹300.00', desc: 'Twice-baked, almond frangipane.' },
+  { id: 10, category: 'Desserts', name: 'Tiramisu', price: '₹320.00', desc: 'Espresso soaked ladyfingers, mascarpone.' },
 ];
 
 const categories = ['All', 'Coffee', 'Beverages', 'Snacks', 'Desserts'];
